@@ -149,7 +149,7 @@ const Footer = () => {
           <Col lg="12" className=" mt-4 text-center">
             <p className="copyright">
               {" "}
-              Copyrights 2022, Developed by Yasir Obaibullah. @Yasir's Tech Diary
+              Copyrights 2022, Developed by Yasir Obaibullah. @Yasir
               All Rights Reserved.{" "}
             </p>
           </Col>

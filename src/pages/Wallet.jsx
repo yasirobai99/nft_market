@@ -2,6 +2,8 @@ import React from "react";
 
 import CommonSection from "../components/ui/Common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
+// import { ConnectButton, Icon, Select, DatePicker, Input, Button } from "web3uikit";
+
 
 import "../styles/wallet.css";
 
@@ -10,12 +12,14 @@ const wallet__data = [
     title: "Bitcoin",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium accusamus repellat rerum consequatur explicabo? Reiciendis!",
     icon: "ri-bit-coin-line",
+    
   },
 
   {
     title: "Coinbase",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium accusamus repellat rerum consequatur explicabo? Reiciendis!",
     icon: "ri-coin-line",
+    
   },
 
   {
@@ -36,18 +40,20 @@ const Wallet = () => {
     <>
       <CommonSection title="Connect Wallet" />
       <section>
+      {/* <div className="lrContainers">
+        <ConnectButton />
+        </div> */}
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <div className="w-50 m-auto">
                 <h3 className="text-light">Connect your wallet</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Minima numquam nisi, quam obcaecati a provident voluptas sequi
-                  unde officiis placeat!
+                  You can Connect your wallet using the button connect wallet and this will done by the help of  Metamask where you can make your payment in the form of any cryptocurrency and it will be help to mantain the backend of the website too and it will be uptated in upcomming version 
                 </p>
               </div>
             </Col>
+            
 
             {wallet__data.map((item, index) => (
               <Col lg="3" md="4" sm="6" key={index} className="mb-4">
@@ -60,6 +66,7 @@ const Wallet = () => {
                 </div>
               </Col>
             ))}
+            
           </Row>
         </Container>
       </section>

@@ -22,8 +22,8 @@ NFT's is a website where you can buy nft which is been uploded by our Seller and
 
 ![Logo](https://img.freepik.com/free-vector/nft-logo-initial-text-gradient_343694-950.jpg)
 
-
+<!-- 
 ## Documentation
 
-[NFT's](http://localhost:3000/home)
+[NFT's](http://localhost:3000/home) -->
 

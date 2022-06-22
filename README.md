@@ -10,7 +10,7 @@ NFT's is a website where you can buy nft which is been uploded by our Seller and
 - Buy or Sell your Nft's
 - Create your own Nft here
 - Make payment in cryptocurrency
-- Can see top seller
+<!-- - Can see top seller -->
 
 
 ## Tech Stack
